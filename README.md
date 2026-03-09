@@ -134,11 +134,11 @@ Wire Transfer ──► AI Risk Score ──► 4-Step Workflow ──► Audit 
 
 ---
 
-## 📸 Screenshots
+<!-- ## 📸 Screenshots
 
 > *Dashboard, PGP Encryption Suite, Wire Transfer Verification Policy — Add screenshots here*
 
----
+--- -->
 
 ## 📄 License
 
