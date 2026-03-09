@@ -6,6 +6,7 @@ import PGPPage from './pages/PGPPage'
 import WirePolicyPage from './pages/WirePolicyPage'
 
 
+
 function Private({ children }) {
     const { token } = useAuth()
     return token ? children : <Navigate to="/login" replace />
