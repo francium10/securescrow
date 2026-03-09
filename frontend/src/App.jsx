@@ -19,9 +19,10 @@ export default function App() {
                 <Routes>
                     <Route path="/login" element={<LoginPage />} />
                     <Route path="/dashboard" element={<Private><DashboardPage /></Private>} />
-                    <Route path="*" element={<Navigate to="/dashboard" replace />} />
-                    <Route path="/pgp" element={<Private><PGPPage /></Private>} />
                     <Route path="/wire-policy" element={<Private><WirePolicyPage /></Private>} />
+                    <Route path="/pgp" element={<Private><PGPPage /></Private>} />
+                    <Route path="*" element={<Navigate to="/dashboard" replace />} />
+
                 </Routes>
             </AuthProvider>
         </BrowserRouter>
